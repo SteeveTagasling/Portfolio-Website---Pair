@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO WEBSITE - Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="top-bar">
+    <div class="logo-container">
+        <div class="name-info">
+            <h1>WEBSITE PORTFOLIO</h1>
+            <div class="social-icons">
+                <i class="fa-brands fa-google"></i>
+                <i class="fa-brands fa-tiktok"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-github"></i>
+              </div>
+        </div>
+    </div>
+    <nav class="navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li>
+                <a href="#">About <i class="fas fa-caret-down"></i></a>
+                    <ul class="dropdown">
+                        <li><a href="about.html">Steeve Tagasling</a></li>
+                        <li><a href="about_masibay.html">Ruby Masibay</a></li>
+                    </ul>
+            </li>
+            <li>
+                <a href="#">Portfolio <i class="fas fa-caret-down"></i></a>
+                    <ul class="dropdown">
+                        <li><a href="portfolio.html">Steeve's Projects</a></li>
+                        <li><a href="portfolio_masibay.html">Ruby's Projects</a></li>
+                    </ul>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <div class="contact-container">
+        <div class="form-section">
+            <h1>Contact Us</h1>
+            <p>Feel free to contact me any time. We will get back to you as soon as we can!</p>
+            <form id="contactForm">
+              <input type="text" id="name" name="name" placeholder="Name" required>
+              <input type="email" id="email" name="email" placeholder="Email" required>
+              <textarea id="message" name="message" placeholder="Message" rows="5" required></textarea>
+              <button type="submit">Send</button>
+            </form>
+          </div>
+      
+          <!-- Right Section -->
+          <div class="info-section">
+            <h2>Contact Details</h2>
+                    <p><i class="fa fa-phone"></i> (+63) 950-537-0818</p>
+                    <p><i class="fas fa-envelope"></i> steeve_lawrence.tagasling@bisu.edu.ph</p>
+                    <p><i class="fab fa-facebook"></i> https://web.facebook.com/SteeveTagasling</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Purok 4, Tinago, Dauis, Bohol, Philippines</p>
+          </div>
+      </div>
+</main>
+</body>
+</html>
